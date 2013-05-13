@@ -1,24 +1,23 @@
 ____________________________________________________________________________________________
-                                 [*][-][-][-][-][-][-][-][-][-][-][-][-][-][*]
-                                 [-]         _____       _____             [-]
-                                 [-]        |____ |     |  _  |            [-]
-                                 [-]  __   __   / /_ __ | |/' |_ __ ___    [-]
-                                 [-]  \ \ / /   \ \ '_ \|  /| | '_ ` _ \   [-]
-                                 [-]   \ V /.___/ / | | \ |_/ / | | | | |  [-]
-                                 [-]    \_/ \____/|_| |_|\___/|_| |_| |_|  [-]
-                                 [*][-][-][-][-][-][-][-][-][-][-][-][-][-][*]
+____________________________________________________________________________________________
 
+                        [|]##########################################[|] 
+                        [|]  Yb    dP 88888 88b 88  dP"Yb  8b    d8  [|]
+                        [|]   Yb  dP    .dP 88Yb88 dP   Yb 88b  d88  [|]
+                        [|]    YbdP   o `Yb 88 Y88 Yb   dP 88YbdP88  [|]
+                        [|]     YP    YbodP 88  Y8  YbodP  88 YY 88  [|]
+                        [|]##########################################[|]
 
-                                        ___.-=[ What You Hold ]=-.___
+___                                    [ What You Hold ]                                 ___
 
     A modified smartd0rk3r          
     
     - Brand new, just outta the box!  
     - Free and Open /src/
     - Linux Edition :]
-    - 05/13/2013 - v.0.5
+    - 05/13/2013 - v.0.8
     - Licensed under WTFPL [http://sam.zoy.org/wtfpl/]
-    - Tested on: Linux 3.2.6 Ubuntu/Debian
+    - Tested on: Linux 3.2.6 Ubuntu/Debian, CentOS 6 (with some errors)
 
     
     This program is for finding and executing various vulnerabilities. 
@@ -29,24 +28,24 @@ ________________________________________________________________________________
                                -3- Local File Inclusion [LFI]
                                -4- SQL injection [SQLi]  
 
-                                         ___.-=[ Usage ]=-.___
+___                                      [ Usage ]                                       ___
 
     root@bt:~# python2.7 v3n0m-v.0.1.py
 
     Now you may follow the simple prompts.
 
-    [0x00] Choose your target (domain) :
+    [0x30] Choose your target (domain) :
             Example : .com 
             AND 
             it is necessary to add you can also use a specific website (www.example.com)
 
-    [0x01] Choose the number of random dorks (0 for all.. may take awhile!) : 
+    [0x31] Choose the number of random dorks (0 for all.. may take awhile!) : 
             Example : 0 = This will choose all of the XSS, File Inclusion, RCE and SQLi dorks
 
-    [0x02] Choose the number of threads :
+    [0x32] Choose the number of threads :
             Example : 50
 
-    [0x03] Enter the number of pages to search through :
+    [0x33] Enter the number of pages to search through :
             Example : 50
 
         The program will print out your desired settings and start searching.
@@ -60,17 +59,16 @@ ________________________________________________________________________________
         Enjoy. :]                                                   
                                                                     ~/ Dev Team
 
-                                  ___.-=[ Contact Information ]=-.___
+___                                [ Contact Information ]                               ___
 
     [ levi      ] - <l3v1athan@tormail.org>
     [ baltazar  ] - <b4ltazar@gmail.com>       
     [ NovaCygni ] - <novacygni@hotmail.co.uk>
-    [ Architect ] - <t3h4rch1t3ct@riseup.net> RIP
+    [ Architect ] -        R.I.P.
     [ un|oad    ] - <unload@autistici.org>
-
     Visit b4ltazar.us for prev. versions
                                                                                             
-                                    ___.-=[ Original Header ]=-.___
+___                                 [ Original Header ]                                  ___
 
     - This was written for educational purpose and pentest only. Use it at your own risk.
     - Author will be not responsible for any damage!
@@ -80,12 +78,25 @@ ________________________________________________________________________________
     - Version         : 1.0
     - greetz for all members of ex darkc0de.com, ljuska.org
 
-                               ___.-=[ New To This Addition ]=-.___
+___                              [ New To This Addition ]                                ___
 
-    - added dork array
+    - added dork array (~30 new dorks to be added in a litle while)
     - added input for number of random dorks
     - added bugfix for over tor (it crashed a lot over tor)
     - added optimization, 1 page with 0 results, skip to next dork
     - added extra check for links to comply with target (makes it alot more target-specific)
     - put main instructions together, added 12 - new scan option
     - added Column Finder
+    - added column and table fuzzer
+    - added superlarge Dork list
+    - added new headers
+    - added lots of new XSS detectors
+    - rewrite done by levi
+    - mad propz to the original author for making a script that's easily modified!!!
+    - Shit ton of beta testing was done to get this version working
+    - Neat, a README!
+    - Dat ASCII
+    - Transformed README to Markdown for advanced readability  
+    - Included a copy of the usage                                                                  
+
+____________________________________________________________________________________________
