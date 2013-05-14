@@ -30,7 +30,7 @@ ___                                    [ What You Hold ]                        
 
 ___                                      [ Usage ]                                       ___
 
-    root@bt:~# python2.7 v3n0m-v.0.1.py
+    root@bt:~# python2.7 Linux-v3n0m-v.0.8.py
 
     Now you may follow the simple prompts.
 
